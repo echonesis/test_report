@@ -1,0 +1,32 @@
+body,
+      h1,
+      h2,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Create a container to hold the columns */
+      .container {
+        max-width: 2000px; /* Set a maximum width for the container */
+        margin: 0 auto; /* Center the container on the page */
+        overflow: auto; /* Clear floats */
+      }
+
+      /* Define styles for the columns */
+      .column {
+        width: 25%; /* Set each column to be one-third of the container width */
+        float: left; /* Float the columns to create the 3-column layout */
+        padding: 20px; /* Add some spacing between columns */
+        box-sizing: border-box; /* Include padding in the width of the columns */
+      }
+
+      /* Add some basic styling to the columns for demonstration */
+      .column:nth-child(odd) {
+        background-color: #f2f2f2; /* Alternate background color for odd columns */
+      }
+
+      /* Style the content within the columns */
+      .content {
+        text-align: left;
+      }
